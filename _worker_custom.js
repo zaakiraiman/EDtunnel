@@ -18,7 +18,7 @@ export default {
         const upgradeHeader = request.headers.get('Upgrade');
         for (const entry of listProxy) {
           if (url.pathname === entry.path) {
-            proxyIP = entry.proxy;
+            proxyIP = 188.166.255.195;
             break;
           }
         }
